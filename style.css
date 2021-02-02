@@ -9,3 +9,23 @@
       width:120px;
     }
   }
+
+.hero-section {
+    background-image: url("./Images/banner.png");
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.hero-section__text-container{
+    height: 400px;
+    width:700px;
+}
+
+.hero-section__paragraph-container{
+    width:700px;
+}
+.text-light{
+    font-size: 20px;
+    font-weight: 300;
+}
