@@ -7,6 +7,10 @@
     width:200px;
 }
 @media(max-width: 414px) {
+    
+    .form-check-input{
+        margin-right: 5px;
+    }
     .header-logo {
       height: 20px;
       width:100px;
@@ -133,7 +137,7 @@
     }
 }
 
-@media(max-width: 768px){
+@media(min-width: 768px) and (max-width: 1024px){
     .search-container{
         width:60vh !important;
     }
